@@ -1,0 +1,334 @@
+.sc1-1{
+	height: 70px;
+	line-height: 50px;
+	padding-top: 50px;
+}
+.sc1-1 .wrap{
+	width: 1258px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.sc1-1 .sc1-nav a{
+	margin: 0 10px;
+}
+
+
+.container{
+	width: 1258px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.science .container{
+	/* height: 1600px; */
+}
+
+.title-2{
+	text-align: center;
+	font-size: 26px;
+	color: #474747;
+	width: 100%;
+	line-height: 1;
+	padding-bottom: 20px;
+}
+.title-2 .tit-span img{
+	width: 22px;
+	height: 32px;
+}
+.tit-span{
+	display: inline-block;
+    vertical-align: middle;
+    margin: 0 8px
+}
+.title-2 p{
+	font-size: 14px;
+    color: #707070;
+	margin-top: 20px;
+}
+
+/* ------------part1-------------- */
+.part1 .context{
+	background: url(../imgedc/contextbg1.jpg);
+	min-height: 360px;
+	overflow: hidden;
+	position: relative;
+}
+.context .img {
+	height: 368px;
+	float: left;
+}
+.context .list{
+	float: right;
+	height:100%;
+	padding: 45px 80px;
+	padding-right: 158px;
+}
+.context .list ul li{
+	margin: 15px 0;
+}
+.context .list ul li p:hover{
+	color: #e8c699;
+}
+.context .list ul li a{
+	color: #fff;
+}
+.context .list ul li a span{
+	font-size: 17px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../imgsci/dian1.png)no-repeat right center;
+	margin-right: 10px;
+	padding-right: 15px;
+}
+.context .list ul li a span i{
+	font-size: 22px;
+}
+.context .list ul li a p{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.more {
+	float: right;
+	color: #fff;
+	position: absolute;
+	line-height: 1;
+	width: 25px;
+	padding: 11px 20px;
+	top: 45px;
+    right: 66px;
+}
+
+.more i {
+	position: absolute;
+	left: 3px;
+	top: 0;
+	background: url(../img/yu.png) no-repeat;
+	width: 48px;
+	height: 100%;
+	
+}
+
+.more i:hover {
+	transform: rotate(-180deg);
+	transition: .8s;
+}
+
+
+
+
+/* ------------part2-------------- */
+.part2{
+	margin-top: 30px;
+}
+.part2 .box1{
+	width: 414px;
+	float: left;
+	margin-right: 17px;
+}
+.box1 .frame{
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 50px;
+	background: url(../imgsci/scibox1bg.jpg);
+}
+.box1 .frame h2{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 15px;
+}
+.box1 .frame .child{
+	height: 376px;
+	position: relative;
+}
+.box1 .frame .child .list{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 50px; 
+	overflow: hidden;
+	padding-top: 0px;
+	/* transition: 1s; */
+}
+
+.box1 .frame .child .list a{
+	padding: 7px 0;
+	float: left;
+	width: 58px;
+	color: #fff;
+	font-size: 14px;
+	background: url(../imgsci/listbg.png)no-repeat left center;
+	padding-left: 20px;
+}
+.box1 .frame .nav{
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+}
+.box1 .frame .nav a{
+	display: inline-block;
+	margin: 0 15px;
+	width: 15px;
+	height: 24px;
+	vertical-align: middle;
+	background: url(../imgsci/prevnext.png)no-repeat;
+	cursor: pointer;
+}
+.box1 .frame .nav .next{
+	background-position: right;
+}
+
+
+
+.box2{
+	overflow: hidden;
+}
+.box2 .item{
+	width: 50%;
+	float: left;
+}
+.box2 .item.i1{
+	height: 275px;
+	background: url(../imgsci/itemi1bg.jpg);
+}
+.box2 .item.i2{
+	height: 275px;
+	background: url(../imgsci/itemi2bg.jpg);
+}
+.box2 .item.i3{
+	height: 227px;
+	background: url(../imgsci/itemi3bg.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+}
+.box2 .item.i3 .text{
+	padding-top: 25px;
+}
+.box2 .text{
+	padding: 14px 40px;
+}
+.box2 .text h2{
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.box2 .text p{
+	text-indent: 2em;
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+	margin-bottom: 15px;
+	text-align: justify;
+}
+.box2 .text a{
+	background: url(../imgsci/scibtbg.png)no-repeat center;
+	background-size: 100% 100%;
+	width: 90px;
+    height: 38px;
+	display: block;
+	text-align: center;
+	line-height: 38px;
+	color: #fff;
+}
+
+
+/* ---------part3---------- */
+.part3{
+	margin-top: 30px;
+}
+.part3 .box1{
+	float: left;
+	width: 414px;
+	margin-right: 17px;
+}
+.part3 .box2 .item.i1{
+	width: 420px;
+	height: 471px;
+	background: url(../imgsci/itemi2bg.jpg);
+	float: left;
+	position: relative;
+}
+.part3 .box2 .item.i1 .icon{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 349px;
+    height: 305px;
+	background: url(../imgsci/iconbg.png)no-repeat;
+}
+.part3 .box2 .item.i1 .text{
+	padding: 50px 50px 0;
+}
+.part3 .box2 .item.i1 .text h2{
+	margin-bottom: 30px;
+}
+.part3 .box2 .item.i2{
+	width: 407px;
+	height: 305px;
+	background: url(../imgsci/itemi1bg.jpg);
+	position: relative;
+}
+.part3 .box2 .item.i2 .more{
+	right: 15px;
+}
+.part3 .box2 .item.i2 .text ol li{
+	display: block;
+	/* vertical-align: top; */
+}
+.part3 .box2 .item.i2 .text h2{
+	margin-top: 20px;
+}
+.part3 .box2 .item.i2 .text ol li span{
+	float: left;
+	font-size: 17px;
+	color: #fff;
+	display: inline-block;
+	padding-right: 12px;
+	background: url(../imgsci/dian1.png)no-repeat right center;
+	font-family: 'Arial';
+}
+.part3 .box2 .item.i2 .text ol li span i{
+	font-size: 24px;
+}
+.part3 .box2 .item.i2 .text ol li p{
+	margin-left: 10px;
+	text-indent: 0;
+	line-height: 27.2px;
+	display: inline-block;
+}
+.part3 .box2 .item.i2 .text ol li p:hover{
+	color: #e8c699;
+}
+.part3 .box2 .item.i3{
+	width: 407px;
+    height: 166px;
+}
+.part3 .box2 .item.i3 .q1{
+	font-size: 24px;
+	width: 50%;
+	float: left;
+	line-height: 166px;
+	text-align: center;
+}
+.part3 .box2 .item.i3 .q1 a{
+	color: #fff;
+}
+.part3 .box2 .item.i3 .q1.bg1{
+	background: url(../imgsci/q1bg1.jpg);
+}
+.part3 .box2 .item.i3 .q1.bg2{
+	background: url(../imgsci/q1bg2.jpg);
+}
+
+
+
+
+
+
+
+
+
+
